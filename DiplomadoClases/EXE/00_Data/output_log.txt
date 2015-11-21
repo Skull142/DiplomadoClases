@@ -1,0 +1,805 @@
+Mono path[0] = 'C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/EXE/00_Data/Managed'
+Mono path[1] = 'C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/EXE/00_Data/Mono'
+Mono config path = 'C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/EXE/00_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/EXE/00_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55197
+Multi-casting "[IP] 192.168.4.10 [Port] 55197 [Flags] 2 [Guid] 2172363731 [EditorId] 2238323783 [Version] 1048832 [Id] WindowsPlayer(admin01-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.4.10:55197]
+Initialize engine version: 5.2.2f1 (3757309da7e7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 670 (ID=0x1189)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\EXE\00_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\EXE\00_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\EXE\00_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\EXE\00_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\EXE\00_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\EXE\00_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\EXE\00_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\EXE\00_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\EXE\00_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.099 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\EXE\00_Data\Managed\System.dll (this message is harmless)
+(6.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+(4.0, 3.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 19f8 -> priority: 1 
+  Thread -> id: 56c -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.345139 ms
+(3.0, 6.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 21.8 MB.
+System memory in use after: 21.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 157.
+Total: 0.115945 ms (FindLiveObjects: 0.008988 ms CreateObjectMapping: 0.008089 ms MarkObjects: 0.062017 ms  DeleteObjects: 0.032956 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.260052 ms
+(3.0, 4.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 20.5 MB.
+System memory in use after: 20.5 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 157.
+Total: 0.049134 ms (FindLiveObjects: 0.005392 ms CreateObjectMapping: 0.004194 ms MarkObjects: 0.035652 ms  DeleteObjects: 0.003595 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.314580 ms
+(5.0, 2.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 21.8 MB.
+System memory in use after: 21.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 157.
+Total: 0.093774 ms (FindLiveObjects: 0.007190 ms CreateObjectMapping: 0.004793 ms MarkObjects: 0.048535 ms  DeleteObjects: 0.032656 ms)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.077296 ms
+(1.0, 3.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 21.9 MB.
+System memory in use after: 21.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 167.
+Total: 0.068009 ms (FindLiveObjects: 0.006591 ms CreateObjectMapping: 0.004793 ms MarkObjects: 0.049733 ms  DeleteObjects: 0.006291 ms)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.121937 ms
+(4.0, 7.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 175.
+Total: 0.090479 ms (FindLiveObjects: 0.006591 ms CreateObjectMapping: 0.004793 ms MarkObjects: 0.072802 ms  DeleteObjects: 0.005392 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.108455 ms
+(3.0, 2.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 175.
+Total: 0.068608 ms (FindLiveObjects: 0.007490 ms CreateObjectMapping: 0.005392 ms MarkObjects: 0.049733 ms  DeleteObjects: 0.005392 ms)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.121937 ms
+(7.0, 5.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 182.
+Total: 0.067709 ms (FindLiveObjects: 0.007190 ms CreateObjectMapping: 0.004793 ms MarkObjects: 0.049434 ms  DeleteObjects: 0.005692 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.117742 ms
+(4.0, 7.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 182.
+Total: 0.063515 ms (FindLiveObjects: 0.007490 ms CreateObjectMapping: 0.004793 ms MarkObjects: 0.045838 ms  DeleteObjects: 0.005093 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.113248 ms
+(4.0, 1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 182.
+Total: 0.064713 ms (FindLiveObjects: 0.007190 ms CreateObjectMapping: 0.004494 ms MarkObjects: 0.047936 ms  DeleteObjects: 0.004793 ms)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.107856 ms
+(1.0, 7.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 189.
+Total: 0.067709 ms (FindLiveObjects: 0.007190 ms CreateObjectMapping: 0.004793 ms MarkObjects: 0.049733 ms  DeleteObjects: 0.005692 ms)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.126131 ms
+(1.0, 5.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.1 MB.
+System memory in use after: 22.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 196.
+Total: 0.066211 ms (FindLiveObjects: 0.006890 ms CreateObjectMapping: 0.004793 ms MarkObjects: 0.049134 ms  DeleteObjects: 0.005093 ms)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.105459 ms
+(3.0, 5.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.1 MB.
+System memory in use after: 22.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 203.
+Total: 0.069207 ms (FindLiveObjects: 0.007190 ms CreateObjectMapping: 0.005093 ms MarkObjects: 0.050632 ms  DeleteObjects: 0.005692 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.106657 ms
+(5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.1 MB.
+System memory in use after: 22.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 203.
+Total: 0.068009 ms (FindLiveObjects: 0.007490 ms CreateObjectMapping: 0.004793 ms MarkObjects: 0.049134 ms  DeleteObjects: 0.005692 ms)
+
+(2.0, 1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.116544 ms
+(1.0, 7.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.1 MB.
+System memory in use after: 22.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 217.
+Total: 0.080892 ms (FindLiveObjects: 0.010486 ms CreateObjectMapping: 0.005392 ms MarkObjects: 0.056924 ms  DeleteObjects: 0.007789 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.060219 ms
+(0.0, 6.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 217.
+Total: 0.063515 ms (FindLiveObjects: 0.007789 ms CreateObjectMapping: 0.004494 ms MarkObjects: 0.046438 ms  DeleteObjects: 0.004494 ms)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+(2.0, 6.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.099167 ms
+(0.0, 1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 231.
+Total: 0.076098 ms (FindLiveObjects: 0.010486 ms CreateObjectMapping: 0.005392 ms MarkObjects: 0.052130 ms  DeleteObjects: 0.007789 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.048834 ms
+(6.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 231.
+Total: 0.058721 ms (FindLiveObjects: 0.009287 ms CreateObjectMapping: 0.004194 ms MarkObjects: 0.041045 ms  DeleteObjects: 0.003894 ms)
+
+(2.0, 3.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+(7.0, 6.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.128828 ms
+(7.0, 4.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.2 MB.
+System memory in use after: 22.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 0.084786 ms (FindLiveObjects: 0.010486 ms CreateObjectMapping: 0.005392 ms MarkObjects: 0.059021 ms  DeleteObjects: 0.009287 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.036551 ms
+(1.0, 7.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 0.061418 ms (FindLiveObjects: 0.008688 ms CreateObjectMapping: 0.004793 ms MarkObjects: 0.043442 ms  DeleteObjects: 0.003894 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.048535 ms
+(1.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.0 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 0.057223 ms (FindLiveObjects: 0.008988 ms CreateObjectMapping: 0.004494 ms MarkObjects: 0.039547 ms  DeleteObjects: 0.003894 ms)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+(2.0, 3.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.134220 ms
+(3.0, 7.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.2 MB.
+System memory in use after: 22.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 266.
+Total: 0.079993 ms (FindLiveObjects: 0.011984 ms CreateObjectMapping: 0.005392 ms MarkObjects: 0.053628 ms  DeleteObjects: 0.008688 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.038648 ms
+(5.0, 4.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.1 MB.
+System memory in use after: 22.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 266.
+Total: 0.069806 ms (FindLiveObjects: 0.011085 ms CreateObjectMapping: 0.004793 ms MarkObjects: 0.049434 ms  DeleteObjects: 0.004194 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.084786 ms
+(3.0, 1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.1 MB.
+System memory in use after: 22.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 266.
+Total: 0.077596 ms (FindLiveObjects: 0.010486 ms CreateObjectMapping: 0.005392 ms MarkObjects: 0.054527 ms  DeleteObjects: 0.006591 ms)
+
+Awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:9)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 9)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerScene:Start() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scripts\ManagerScene.cs:13)
+ 
+(Filename: C:/Users/Diplomado20161/Documents/DiplomadoClases/DiplomadoClases/Assets/Resources/Scripts/ManagerScene.cs Line: 13)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.073701 ms
+(5.0, 3.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.1 MB.
+System memory in use after: 22.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 273.
+Total: 0.077596 ms (FindLiveObjects: 0.010785 ms CreateObjectMapping: 0.005392 ms MarkObjects: 0.055126 ms  DeleteObjects: 0.005692 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.072503 ms
+(0.0, 5.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+System memory in use before: 22.1 MB.
+System memory in use after: 22.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 273.
+Total: 0.075798 ms (FindLiveObjects: 0.011384 ms CreateObjectMapping: 0.005392 ms MarkObjects: 0.053328 ms  DeleteObjects: 0.005093 ms)
+
+(4.0, 6.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+ManagerScene1:Awake() (at C:\Users\Diplomado20161\Documents\DiplomadoClases\DiplomadoClases\Assets\Resources\Scenes\Pract01\ManagerScene1.cs:11)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
