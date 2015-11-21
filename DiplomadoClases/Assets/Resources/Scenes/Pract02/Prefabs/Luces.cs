@@ -12,7 +12,8 @@ public class Luces : MonoBehaviour {
 	private Color colorChange;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		counter = Time.time + timeChangeColor;
 		_light = this.GetComponent<Light> ();
 		colorChange = _light.color;

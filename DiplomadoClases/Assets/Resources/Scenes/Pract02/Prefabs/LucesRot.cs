@@ -7,7 +7,7 @@ public class LucesRot : MonoBehaviour {
 	public float duration;
 
 	void Update () {
-		float ang = PingPong(Time.time,-this.angRot, angRot);
+		float ang = PingPong(Time.time*duration,-this.angRot, angRot);
 		this.transform.localEulerAngles = Vector3.forward * ang ;
 
 	}
