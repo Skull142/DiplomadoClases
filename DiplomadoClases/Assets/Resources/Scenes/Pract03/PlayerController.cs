@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour {
 	[Range(0f, 1000f)]public float force = 100f;
 	public KeyCode sprintKey = KeyCode.LeftShift;
 	public float sprintVelocity = 1.5f;
+	public float stepHeight = 20f;
 	public GameObject vcam;
 	//
 	private Rigidbody body;
@@ -26,12 +27,13 @@ public class PlayerController : MonoBehaviour {
 			bool sprint = ( Input.GetKey(sprintKey) );
 			this.transform.localPosition += this.transform.forward * Time.deltaTime * velocity.x * Input.GetAxis("Vertical") * (sprint ? sprintVelocity:1);
 			this.transform.localPosition += this.transform.right * Time.deltaTime * velocity.y * Input.GetAxis("Horizontal");
-			vcam.transform.localPosition += Vector3.up*(Mathf.Sin( stepCount ))/25;
+			vcam.transform.localPosition += Vector3.up*(Mathf.Sin( stepCount ))/stepHeight;
 			stepCount = ( stepCount + ( Time.deltaTime *  (sprint ? sprintVelocity*10:velocity.y ) ) )% (Mathf.PI*2);
-			print(stepCount);
 		}
 		if (Input.GetKeyDown (KeyCode.Space))
 			body.AddForce (Vector3.up * force);
+		if (Input.GetMouseButtonDown (1))
+			body.constraints = RigidbodyConstraints.None;
 	
 	}
 }
