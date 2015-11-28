@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour {
 		decal.transform.up = contact.normal;
 		decal.transform.position += decal.transform.up * offset;
 		//
-		Debug.Log (coll.gameObject.name);
+		//Debug.Log (coll.gameObject.name);
 		Destroy(this.gameObject);
 	}
 }
