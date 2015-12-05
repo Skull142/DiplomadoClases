@@ -16,7 +16,7 @@ public class ThridPersonCamera : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		targetPosition = target.position + (target.up*height) - (target.forward*distance);
+		targetPosition = target.position + (target.up*height) + (target.forward*distance);
 		this.transform.position = Vector3.Lerp (this.transform.position, targetPosition, Time.deltaTime*smooth);
 		this.transform.LookAt (this.target.position);
 	}

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(CapsuleCollider))]
 public class PlayerControllerAnimator : MonoBehaviour {
 
 	public float forwardCollitionLenght = 1f;
@@ -11,11 +12,12 @@ public class PlayerControllerAnimator : MonoBehaviour {
 	[HideInInspector] public CapsuleCollider capsule;
 	private bool jumpUp;
 	private bool jumpDown;
-
+	private float startHeightCollider;
 	// Use this for initialization
 	void Start () {
 		this.animator = this.GetComponent<Animator> ();
 		this.capsule = this.GetComponent<CapsuleCollider> ();
+		this.animator.SetFloat("HeightCollider", this.capsule.height);
 	}
 	
 	// Update is called once per frame
@@ -25,33 +27,43 @@ public class PlayerControllerAnimator : MonoBehaviour {
 		Ray rayDown = new Ray (this.capsule.center + this.transform.position, this.transform.up * -1f);
 		RaycastHit hit;
 		this.stateInfo = animator.GetCurrentAnimatorStateInfo (0);
-		animator.SetFloat("Speed", Input.GetAxis("Vertical"));
+		animator.SetFloat("Speed", jumpDown ?  0:Input.GetAxis("Vertical"));
 		animator.SetFloat("Direction", Input.GetAxis("Horizontal"));
-		if (Input.GetKeyDown (KeyCode.Space)) 
-		{
-			if(stateInfo.IsName("Locomotion"))
+		if(this.stateInfo.IsName("Jump"))
+			this.capsule.height = this.animator.GetFloat ("HeightCollider");
+		//
+		if (Input.GetKeyDown (KeyCode.P))
+			animator.SetTrigger ("Dead");
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			if (stateInfo.IsName ("LocomotionForward"))
 				animator.SetTrigger ("Jump");
-		}
+		} 
 		if (Input.GetKeyDown (KeyCode.Q)) 
 		{
 			animator.SetTrigger ("Wave");
 		}
 		//
-		if (Physics.Raycast (rayForward, out hit, forwardCollitionLenght) && !jumpUp) {
+		if (Physics.Raycast (rayForward, out hit, forwardCollitionLenght) && !jumpUp) 
+		{
 			animator.SetBool ("JumpUP", true);
 			jumpUp = true;
-		} else {
+		} else 
+		{
 			animator.SetBool ("JumpUP", false);
 			jumpUp = false;
 		}
 
-		if (!Physics.Raycast (rayDown, out hit, this.capsule.height + offsetDown) && !jumpDown) {
+		if (!Physics.Raycast (rayDown, out hit, (this.capsule.height/2) + offsetDown) && !jumpDown) 
+		{
 			animator.SetBool ("JumpDown", true);
 			jumpDown = true;
-		} else {
+		} else 
+		{
 			animator.SetBool ("JumpDown", false);
 			jumpDown = false;
 		}
+		Debug.DrawRay(rayForward.origin, rayForward.direction);
+		Debug.DrawRay(rayDown.origin, rayDown.direction);
 		print (jumpUp);
 
 
