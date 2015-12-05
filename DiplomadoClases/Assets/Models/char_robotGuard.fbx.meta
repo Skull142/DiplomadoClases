@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 3974b181f8f59754ca61fd0985a39b73
+timeCreated: 1449270554
+licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
@@ -126,7 +128,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -577,260 +579,265 @@ ModelImporter:
         length: .0129615013
         modified: 1
     skeleton:
-    - name: char_robotGuard
+    - name: char_robotGuard(Clone)
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: .99999994}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: char_robotGuard_body
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: char_robotGuard_skeleton
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: char_robotGuard_Hips
       position: {x: -6.9505234e-17, y: 1.03372717, z: .0356030911}
-      rotation: {x: .492446303, y: .507441223, z: .492446303, w: .507441282}
-      scale: {x: .99999994, y: .99999994, z: 1}
-      transformModified: 1
-    - name: char_robotGuard_LeftUpLeg
-      position: {x: -.122133575, y: .011331778, z: -.0689055398}
-      rotation: {x: -.995700419, y: -.0926312208, z: -1.95519312e-09, w: 6.22734504e-08}
-      scale: {x: 1, y: 1.00000012, z: 1.00000012}
-      transformModified: 1
-    - name: char_robotGuard_LeftLeg
-      position: {x: -.37173444, y: -.00199667527, z: .0730361491}
-      rotation: {x: -2.79945649e-08, y: -3.15065201e-08, z: .0188125819, w: .999822974}
-      scale: {x: 1, y: .99999994, z: .99999994}
-      transformModified: 1
-    - name: char_robotGuard_LeftFoot
-      position: {x: -.434049875, y: 5.12513658e-08, z: 1.94382039e-08}
-      rotation: {x: .86925447, y: .494364858, z: 0, w: 0}
-      scale: {x: 1, y: .99999994, z: .999999881}
-      transformModified: 1
-    - name: char_robotGuard_LeftToeBase
-      position: {x: -.13787201, y: -5.53547821e-08, z: 2.40752707e-09}
-      rotation: {x: -.227291971, y: -.669580698, z: -.227291971, w: .669580698}
-      scale: {x: 1.00000012, y: 1, z: 1}
-      transformModified: 1
-    - name: char_robotGuard_RightUpLeg
-      position: {x: -.122133501, y: .011331683, z: .0689056069}
-      rotation: {x: -5.67489771e-08, y: 1.78174264e-09, z: -.995700419, w: .0926312208}
-      scale: {x: 1, y: 1.00000012, z: 1}
-      transformModified: 1
-    - name: char_robotGuard_RightLeg
-      position: {x: .371734649, y: -.00199680263, z: .0730363578}
-      rotation: {x: -2.79945649e-08, y: 3.15065201e-08, z: -.0188125819, w: .999822974}
-      scale: {x: 1.00000024, y: .99999994, z: .99999994}
-      transformModified: 1
-    - name: char_robotGuard_RightFoot
-      position: {x: .434049487, y: 1.16713863e-07, z: 2.68887632e-08}
-      rotation: {x: 0, y: 0, z: .494364828, w: -.86925447}
-      scale: {x: 1, y: .999999881, z: 1.00000012}
-      transformModified: 1
-    - name: char_robotGuard_RightToeBase
-      position: {x: .13787207, y: 6.0700394e-08, z: 5.04305575e-09}
-      rotation: {x: 1.22199433e-08, y: -4.1481103e-09, z: -.321439385, w: .94693011}
-      scale: {x: 1.00000012, y: 1, z: 1}
+      rotation: {x: .492446363, y: .507441223, z: .492446363, w: .507441282}
+      scale: {x: 1.00000012, y: 1, z: 1.00000024}
       transformModified: 1
     - name: char_robotGuard_Spine
       position: {x: .10916803, y: -.00503296498, z: -7.23746085e-09}
-      rotation: {x: -.0283698272, y: -.99959743, z: -2.84822015e-08, w: 3.10663921e-08}
-      scale: {x: 1.00000024, y: 1.00000012, z: 1}
+      rotation: {x: -.0283699036, y: -.99959749, z: -5.96046448e-08, w: 7.4505806e-08}
+      scale: {x: 1, y: .99999994, z: .999999762}
+      transformModified: 1
+    - name: char_robotGuard_Neck
+      position: {x: -.39539957, y: 6.13783243e-07, z: 1.34512523e-09}
+      rotation: {x: 4.47034836e-08, y: 2.98023224e-08, z: .151223794, w: -.988499582}
+      scale: {x: .999999881, y: .999999702, z: 1}
+      transformModified: 1
+    - name: char_robotGuard_Head
+      position: {x: -.0795930102, y: 7.35808641e-08, z: -4.25225744e-10}
+      rotation: {x: 4.47034836e-08, y: -2.98023224e-08, z: -8.94069672e-08, w: 1}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: char_robotGuard_helmet
+      position: {x: 1.57870996, y: .337435246, z: 4.70026788e-16}
+      rotation: {x: .551175475, y: -.442951053, z: -.551175475, w: -.442951053}
+      scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: char_robotGuard_LeftShoulder
       position: {x: -.247965381, y: -.0189684331, z: .131307274}
-      rotation: {x: -.410582215, y: .447834373, z: .536756337, w: .585456312}
-      scale: {x: 1, y: .999999881, z: .99999994}
+      rotation: {x: -.410582274, y: .447834402, z: .536756396, w: .585456371}
+      scale: {x: 1.00000012, y: .999999881, z: 1.00000012}
       transformModified: 1
     - name: char_robotGuard_LeftArm
       position: {x: -.0635852963, y: 3.49935931e-07, z: -2.00084614e-07}
-      rotation: {x: .0810572058, y: .122538626, z: .0857570991, w: .985423565}
-      scale: {x: 1.00000012, y: 1, z: 1}
+      rotation: {x: .0810571685, y: .122538604, z: .0857567787, w: .985423684}
+      scale: {x: 1, y: .999999881, z: .999999702}
       transformModified: 1
     - name: char_robotGuard_LeftForeArm
       position: {x: -.238371015, y: .0353247039, z: -.00126049458}
-      rotation: {x: -.0022794276, y: -.0410712883, z: -.526822031, w: .848979592}
-      scale: {x: 1.00000012, y: 1, z: 1}
+      rotation: {x: -.00227941992, y: -.0410711654, z: -.526821971, w: .848979771}
+      scale: {x: 1.00000024, y: 1, z: 1}
       transformModified: 1
     - name: char_robotGuard_LeftHand
       position: {x: -.176925212, y: -.248301491, z: .0419350751}
-      rotation: {x: -.00276770233, y: .00809887145, z: .46268484, w: .886481464}
-      scale: {x: 1, y: 1.00000012, z: .99999994}
+      rotation: {x: -.00276780082, y: .00809880439, z: .462684065, w: .886482}
+      scale: {x: .999999881, y: 1, z: .999999881}
       transformModified: 1
     - name: char_robotGuard_LeftHandIndex1
       position: {x: -.0701329783, y: .0124757122, z: .0255052112}
-      rotation: {x: .0102325715, y: .00696283113, z: -.00867203623, w: .999885738}
-      scale: {x: 1.00000012, y: .999999821, z: 1}
+      rotation: {x: .0102325361, y: .00696285116, z: -.00867266767, w: .999885857}
+      scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: char_robotGuard_LeftHandIndex2
       position: {x: -.0405335091, y: -3.73845324e-07, z: 4.93223382e-08}
-      rotation: {x: .000711352215, y: .000479871669, z: .0111968219, w: .999936938}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      rotation: {x: .000711303437, y: .000479869603, z: .011196903, w: .999936998}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1}
       transformModified: 1
     - name: char_robotGuard_LeftHandIndex3
       position: {x: -.0229448043, y: 2.1975498e-07, z: -4.9494937e-09}
-      rotation: {x: -.0110165793, y: -.000252173864, z: -.0228819717, w: .99967742}
-      scale: {x: .99999994, y: 1, z: .999999821}
+      rotation: {x: -.0110165942, y: -.000252176513, z: -.0228820033, w: .999677479}
+      scale: {x: .99999994, y: 1, z: .999999881}
       transformModified: 1
     - name: char_robotGuard_LeftHandMiddle1
       position: {x: -.0718104169, y: .0124759581, z: .00505479565}
-      rotation: {x: .0102415401, y: .0067242221, z: -.00871306565, w: .99988693}
-      scale: {x: 1.00000024, y: .99999994, z: 1}
+      rotation: {x: .0102413548, y: .0067243157, z: -.0087138908, w: .99988699}
+      scale: {x: 1.00000024, y: .99999994, z: 1.00000012}
       transformModified: 1
     - name: char_robotGuard_LeftHandMiddle2
       position: {x: -.0440532304, y: -8.17422631e-07, z: 2.8291014e-08}
-      rotation: {x: .000649852504, y: .000440989534, z: .0103051402, w: .999946535}
-      scale: {x: .999999821, y: 1, z: 1}
+      rotation: {x: .000649771595, y: .00044091366, z: .0103049977, w: .999946654}
+      scale: {x: .999999642, y: 1.00000012, z: .999999821}
       transformModified: 1
     - name: char_robotGuard_LeftHandMiddle3
       position: {x: -.0249325465, y: 3.05216503e-07, z: -6.37414521e-09}
-      rotation: {x: -.0109564103, y: -.000230803082, z: -.0210566502, w: .999718189}
-      scale: {x: 1.00000012, y: .99999994, z: 1}
-      transformModified: 1
-    - name: char_robotGuard_LeftHandPinky1
-      position: {x: -.0721201673, y: .0124763492, z: -.0332361944}
-      rotation: {x: .0101912552, y: .00791194569, z: -.00854763202, w: .999880195}
-      scale: {x: 1.00000012, y: .99999994, z: 1}
-      transformModified: 1
-    - name: char_robotGuard_LeftHandPinky2
-      position: {x: -.0305164382, y: -7.53119537e-07, z: -2.52020946e-08}
-      rotation: {x: .00097385369, y: .000640970306, z: .0148619255, w: .999888837}
-      scale: {x: 1, y: .99999994, z: 1}
-      transformModified: 1
-    - name: char_robotGuard_LeftHandPinky3
-      position: {x: -.0172828902, y: -3.79975404e-07, z: 4.08635152e-08}
-      rotation: {x: -.0112725673, y: -.000342675427, z: -.0303827804, w: .999474645}
-      scale: {x: 1, y: 1.00000012, z: .99999994}
+      rotation: {x: -.0109563265, y: -.000230704347, z: -.0210565608, w: .999718308}
+      scale: {x: 1.00000024, y: .999999762, z: 1.00000012}
       transformModified: 1
     - name: char_robotGuard_LeftHandRing1
       position: {x: -.0722585171, y: .0124758305, z: -.0148618678}
-      rotation: {x: .0102259992, y: .00713031273, z: -.00863739289, w: .999884963}
+      rotation: {x: .0102259992, y: .00713051716, z: -.00863828976, w: .999884963}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: char_robotGuard_LeftHandRing2
       position: {x: -.0383322388, y: 3.62203906e-07, z: 1.03009579e-09}
-      rotation: {x: .000756198948, y: .000507929304, z: .0118391486, w: .999929428}
-      scale: {x: 1, y: 1, z: 1.00000012}
+      rotation: {x: .000756102789, y: .000507916615, z: .0118391709, w: .999929488}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
       transformModified: 1
     - name: char_robotGuard_LeftHandRing3
       position: {x: -.021701131, y: -4.63638514e-07, z: 3.88855739e-08}
-      rotation: {x: -.0110604437, y: -.000267723313, z: -.0241946559, w: .999646008}
-      scale: {x: 1.00000012, y: 1, z: .999999821}
+      rotation: {x: -.011060454, y: -.000267757772, z: -.0241947193, w: .999646068}
+      scale: {x: .99999994, y: 1, z: .999999702}
+      transformModified: 1
+    - name: char_robotGuard_LeftHandPinky1
+      position: {x: -.0721201673, y: .0124763492, z: -.0332361944}
+      rotation: {x: .0101911686, y: .00791145116, z: -.00854647532, w: .999880254}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: char_robotGuard_LeftHandPinky2
+      position: {x: -.0305164382, y: -7.53119537e-07, z: -2.52020946e-08}
+      rotation: {x: .000973808346, y: .000640991668, z: .0148618789, w: .999888897}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: char_robotGuard_LeftHandPinky3
+      position: {x: -.0172828902, y: -3.79975404e-07, z: 4.08635152e-08}
+      rotation: {x: -.0112725953, y: -.000342681422, z: -.0303825922, w: .999474764}
+      scale: {x: .999999881, y: 1.00000024, z: .99999994}
       transformModified: 1
     - name: char_robotGuard_LeftHandThumb1
       position: {x: -.0468879305, y: -.00486503029, z: .0469879396}
-      rotation: {x: .381582499, y: .381178439, z: -.197718233, w: .818538487}
-      scale: {x: 1.00000012, y: 1, z: .999999821}
+      rotation: {x: .381582826, y: .381177694, z: -.197716638, w: .818539083}
+      scale: {x: 1.00000012, y: 1.00000036, z: .999999464}
       transformModified: 1
     - name: char_robotGuard_LeftHandThumb2
       position: {x: -.0287781786, y: -.00164757739, z: -.00240348885}
-      rotation: {x: -.420362145, y: -.371804088, z: .0835275128, w: .823456407}
-      scale: {x: .999999881, y: 1.00000012, z: 1}
-      transformModified: 1
-    - name: char_robotGuard_Neck
-      position: {x: -.39539957, y: 6.13783243e-07, z: 1.34512523e-09}
-      rotation: {x: 0, y: 0, z: -.151223734, w: .988499522}
-      scale: {x: .999999821, y: .999999881, z: 1}
-      transformModified: 1
-    - name: char_robotGuard_Head
-      position: {x: -.0795930102, y: 7.35808641e-08, z: -4.25225744e-10}
-      rotation: {x: 0, y: 0, z: 0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: char_robotGuard_helmet
-      position: {x: 1.57870996, y: .337435246, z: 4.70026788e-16}
-      rotation: {x: .551175416, y: -.442951024, z: -.551175416, w: -.442951024}
-      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -.420362145, y: -.371804148, z: .083527647, w: .823456407}
+      scale: {x: .999999821, y: 1.00000012, z: 1.00000024}
       transformModified: 1
     - name: char_robotGuard_RightShoulder
       position: {x: -.247970238, y: -.018967988, z: -.131307036}
-      rotation: {x: .447834373, y: .410582215, z: -.585456312, w: .536756337}
-      scale: {x: .99999994, y: .999999702, z: .999999762}
+      rotation: {x: .447834402, y: .410582244, z: -.585456371, w: .536756456}
+      scale: {x: 1, y: .999999404, z: .999999583}
       transformModified: 1
     - name: char_robotGuard_RightArm
       position: {x: .0635853484, y: -1.32228274e-06, z: -1.77718746e-07}
-      rotation: {x: -.0620074347, y: .0971065164, z: .0206002351, w: .99312681}
-      scale: {x: 1, y: .99999994, z: 1.00000024}
+      rotation: {x: -.062007349, y: .0971064866, z: .0206004437, w: .993126988}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000072}
       transformModified: 1
     - name: char_robotGuard_RightForeArm
       position: {x: .240621224, y: .0051445514, z: -.0121178553}
-      rotation: {x: -.783273518, y: -.0116724027, z: -.00327125401, w: -.621558845}
-      scale: {x: .99999994, y: .999999881, z: 1}
+      rotation: {x: -.783273578, y: -.011672589, z: -.00327117671, w: -.621559083}
+      scale: {x: .99999994, y: .999999583, z: .999999464}
       transformModified: 1
     - name: char_robotGuard_RightHand
       position: {x: .305884749, y: -.0331729837, z: .00706679607}
-      rotation: {x: .705120802, y: .00823994912, z: -.0129032889, w: -.70892179}
-      scale: {x: 1.00000012, y: .999999821, z: .999999642}
+      rotation: {x: .705120921, y: .00824061781, z: -.0129025849, w: -.70892179}
+      scale: {x: 1.00000036, y: .999999642, z: .999999225}
       transformModified: 1
     - name: char_robotGuard_RightHandIndex1
       position: {x: .0694011524, y: -.0138476677, z: -.0267640203}
-      rotation: {x: .0103114247, y: .0158628821, z: -.0186254997, w: .999647439}
-      scale: {x: .999999881, y: 1, z: 1}
+      rotation: {x: .0103112329, y: .0158627741, z: -.0186243579, w: .999647617}
+      scale: {x: .999999762, y: .999999881, z: 1.00000012}
       transformModified: 1
     - name: char_robotGuard_RightHandIndex2
       position: {x: .0405339971, y: -4.0715716e-07, z: -9.7720914e-08}
-      rotation: {x: .000711327069, y: .000479823939, z: .0111968517, w: .999936938}
-      scale: {x: 1.00000048, y: .99999994, z: 1.00000024}
+      rotation: {x: .000711369095, y: .000479943876, z: .0111969672, w: .999936938}
+      scale: {x: 1.00000048, y: .99999994, z: 1.00000012}
       transformModified: 1
     - name: char_robotGuard_RightHandIndex3
       position: {x: .0229442623, y: 4.40861712e-08, z: -9.11579221e-08}
-      rotation: {x: -.0110166268, y: -.0002521633, z: -.022881994, w: .99967742}
-      scale: {x: .999999821, y: 1.00000012, z: 1}
+      rotation: {x: -.0110165374, y: -.000252247293, z: -.0228820723, w: .99967742}
+      scale: {x: .999999762, y: 1.00000036, z: 1.00000024}
       transformModified: 1
     - name: char_robotGuard_RightHandMiddle1
       position: {x: .0714465082, y: -.0138890119, z: -.00634719664}
-      rotation: {x: .0103174085, y: .0156282037, z: -.018680919, w: .999650061}
-      scale: {x: .99999994, y: .999999821, z: .999999821}
+      rotation: {x: .0103171319, y: .0156276841, z: -.0186792742, w: .999650121}
+      scale: {x: .999999821, y: .999999523, z: .999999821}
       transformModified: 1
     - name: char_robotGuard_RightHandMiddle2
       position: {x: .0440534241, y: 1.30029571e-06, z: -7.77587204e-08}
-      rotation: {x: .000649770955, y: .000440982287, z: .010304979, w: .999946535}
-      scale: {x: .99999994, y: 1, z: .999999881}
+      rotation: {x: .000649873167, y: .000440951437, z: .0103049576, w: .999946654}
+      scale: {x: .999999881, y: 1.00000012, z: .999999702}
       transformModified: 1
     - name: char_robotGuard_RightHandMiddle3
       position: {x: .0249319039, y: -3.99494553e-07, z: 7.44836228e-08}
-      rotation: {x: -.0109563693, y: -.000230845908, z: -.0210565105, w: .999718189}
-      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000036}
-      transformModified: 1
-    - name: char_robotGuard_RightHandPinky1
-      position: {x: .0724450424, y: -.0139085548, z: .0319321342}
-      rotation: {x: .0102805365, y: .0168140847, z: -.0185069609, w: .999634445}
-      scale: {x: .99999994, y: 1, z: 1.00000012}
-      transformModified: 1
-    - name: char_robotGuard_RightHandPinky2
-      position: {x: .0305170082, y: 7.69423934e-07, z: -1.29304896e-08}
-      rotation: {x: .000973825227, y: .000640900806, z: .0148619302, w: .999888837}
-      scale: {x: .99999994, y: 1.00000024, z: .99999994}
-      transformModified: 1
-    - name: char_robotGuard_RightHandPinky3
-      position: {x: .0172820091, y: -1.61944627e-07, z: 1.82528961e-08}
-      rotation: {x: -.0112725897, y: -.000342655723, z: -.0303827692, w: .999474645}
-      scale: {x: 1, y: .99999994, z: 1}
+      rotation: {x: -.0109565267, y: -.000230733247, z: -.0210564081, w: .999718308}
+      scale: {x: 1.00000036, y: 1, z: 1.0000006}
       transformModified: 1
     - name: char_robotGuard_RightHandRing1
       position: {x: .0722520873, y: -.013904687, z: .0135582332}
-      rotation: {x: .0103067653, y: .0160327721, z: -.0185978487, w: .999645293}
-      scale: {x: .999999702, y: 1, z: .99999994}
+      rotation: {x: .0103067085, y: .0160329621, z: -.0185981318, w: .999645412}
+      scale: {x: .999999702, y: .999999762, z: 1}
       transformModified: 1
     - name: char_robotGuard_RightHandRing2
       position: {x: .0383332968, y: -4.4805023e-07, z: 6.06362605e-08}
-      rotation: {x: .000756142661, y: .000507825112, z: .0118392054, w: .999929428}
-      scale: {x: 1.00000048, y: 1.00000012, z: 1.00000036}
+      rotation: {x: .000756216992, y: .000507927383, z: .011839238, w: .999929547}
+      scale: {x: 1.0000006, y: 1.00000024, z: 1.00000024}
       transformModified: 1
     - name: char_robotGuard_RightHandRing3
       position: {x: .0217004418, y: 1.3725097e-06, z: -1.74957478e-07}
-      rotation: {x: -.0110603934, y: -.000267676951, z: -.0241947304, w: .999646008}
-      scale: {x: .999999762, y: 1, z: 1}
+      rotation: {x: -.011060413, y: -.000267766329, z: -.0241947379, w: .999646127}
+      scale: {x: .999999583, y: .999999881, z: 1}
+      transformModified: 1
+    - name: char_robotGuard_RightHandPinky1
+      position: {x: .0724450424, y: -.0139085548, z: .0319321342}
+      rotation: {x: .0102802292, y: .0168142132, z: -.0185071528, w: .999634504}
+      scale: {x: .99999994, y: .999999821, z: 1.00000012}
+      transformModified: 1
+    - name: char_robotGuard_RightHandPinky2
+      position: {x: .0305170082, y: 7.69423934e-07, z: -1.29304896e-08}
+      rotation: {x: .000973807415, y: .000640949991, z: .0148619376, w: .999888897}
+      scale: {x: .99999994, y: 1.00000048, z: 1}
+      transformModified: 1
+    - name: char_robotGuard_RightHandPinky3
+      position: {x: .0172820091, y: -1.61944627e-07, z: 1.82528961e-08}
+      rotation: {x: -.0112725208, y: -.000342634419, z: -.0303827152, w: .999474704}
+      scale: {x: 1, y: .999999702, z: .999999881}
       transformModified: 1
     - name: char_robotGuard_RightHandThumb1
       position: {x: .0461200029, y: .00395602919, z: -.0478246994}
-      rotation: {x: .383605093, y: .384769917, z: -.209182829, w: .813044727}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000024}
+      rotation: {x: .383605093, y: .384770811, z: -.209183499, w: .813044131}
+      scale: {x: .99999994, y: 1.00000012, z: .999999881}
       transformModified: 1
     - name: char_robotGuard_RightHandThumb2
       position: {x: .0287789758, y: .00164778763, z: .00240389374}
-      rotation: {x: .122744903, y: -.0850149244, z: .318449587, w: .936106801}
-      scale: {x: .99999994, y: 1, z: .99999994}
+      rotation: {x: .122744739, y: -.0850150883, z: .318449765, w: .936106801}
+      scale: {x: .999999702, y: 1.00000036, z: .999999881}
+      transformModified: 1
+    - name: char_robotGuard_LeftUpLeg
+      position: {x: -.122133575, y: .011331778, z: -.0689055398}
+      rotation: {x: -.995700538, y: -.0926311836, z: 0, w: 5.96046519e-08}
+      scale: {x: 1, y: .999999762, z: .999999642}
+      transformModified: 1
+    - name: char_robotGuard_LeftLeg
+      position: {x: -.37173444, y: -.00199667527, z: .0730361491}
+      rotation: {x: -1.49011594e-08, y: -4.470348e-08, z: .0188125502, w: .999823093}
+      scale: {x: 1.00000024, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: char_robotGuard_LeftFoot
+      position: {x: -.434049875, y: 5.12513658e-08, z: 1.94382039e-08}
+      rotation: {x: .869254529, y: .494364917, z: 3.72528994e-08, w: -7.45057971e-09}
+      scale: {x: .999999881, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: char_robotGuard_LeftToeBase
+      position: {x: -.13787201, y: -5.53547821e-08, z: 2.40752707e-09}
+      rotation: {x: -.227291927, y: -.669580817, z: -.227291971, w: .669580758}
+      scale: {x: 1.00000012, y: .999999881, z: 1}
+      transformModified: 1
+    - name: char_robotGuard_RightUpLeg
+      position: {x: -.122133501, y: .011331683, z: .0689056069}
+      rotation: {x: -8.94069672e-08, y: 0, z: -.995700538, w: .0926311761}
+      scale: {x: .999999642, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: char_robotGuard_RightLeg
+      position: {x: .371734649, y: -.00199680263, z: .0730363578}
+      rotation: {x: -1.49011594e-08, y: 4.470348e-08, z: -.01881258, w: .999823093}
+      scale: {x: 1.00000048, y: 1, z: .999999881}
+      transformModified: 1
+    - name: char_robotGuard_RightFoot
+      position: {x: .434049487, y: 1.16713863e-07, z: 2.68887632e-08}
+      rotation: {x: 0, y: 2.98023153e-08, z: .494364858, w: -.869254529}
+      scale: {x: .999999821, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: char_robotGuard_RightToeBase
+      position: {x: .13787207, y: 6.0700394e-08, z: 5.04305575e-09}
+      rotation: {x: -2.36923459e-08, y: 0, z: -.321439445, w: .94693023}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000012}
       transformModified: 1
     armTwist: .5
     foreArmTwist: .5
