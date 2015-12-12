@@ -1,12 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(CapsuleCollider))]
-public class PlayerControllerAnimator : MonoBehaviour {
+public enum PlayerState
+{
+	ALIVE,
+	DEAD
+}
 
+[RequireComponent(typeof(CapsuleCollider))]
+public class PlayerControllerAnimator : MonoBehaviour 
+{
 	public float forwardCollitionLenght = 1f;
 	public float offsetDown  = 1f; 
-
+	public PlayerState state;
+	public LayerMask shootLayer;
+	public bool climb = true;
 	[HideInInspector] public Animator animator;
 	[HideInInspector] public AnimatorStateInfo stateInfo;
 	[HideInInspector] public CapsuleCollider capsule;
@@ -18,14 +26,14 @@ public class PlayerControllerAnimator : MonoBehaviour {
 		this.animator = this.GetComponent<Animator> ();
 		this.capsule = this.GetComponent<CapsuleCollider> ();
 		this.animator.SetFloat("HeightCollider", this.capsule.height);
+		this.state = PlayerState.ALIVE;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		Ray rayForward= new Ray (this.capsule.center + this.transform.position, this.transform.forward);
-		Ray rayDown = new Ray (this.capsule.center + this.transform.position, this.transform.up * -1f);
-		RaycastHit hit;
+		if (this.state == PlayerState.DEAD)
+			return;
 		this.stateInfo = animator.GetCurrentAnimatorStateInfo (0);
 		animator.SetFloat("Speed", jumpDown ?  0:Input.GetAxis("Vertical"));
 		animator.SetFloat("Direction", Input.GetAxis("Horizontal"));
@@ -39,10 +47,29 @@ public class PlayerControllerAnimator : MonoBehaviour {
 				animator.SetTrigger ("Jump");
 		} 
 		if (Input.GetKeyDown (KeyCode.Q)) 
-		{
 			animator.SetTrigger ("Wave");
+		if (Input.GetMouseButtonDown (0)) 
+		{
+			animator.SetTrigger ("Shoot");
+			Ray ray = new Ray (this.capsule.center + this.transform.position, this.transform.forward);
+			RaycastHit hitShoot;
+			if (Physics.Raycast (ray, out hitShoot, 100f)) 
+			{
+				if(hitShoot.transform.tag == "Enemy")
+				{
+					hitShoot.transform.SendMessage("Dead");
+					Debug.DrawRay(ray.origin, hitShoot.point);
+				}
+			}
+			else
+				Debug.DrawRay(ray.origin, ray.direction);
 		}
 		//
+		if (!this.climb)
+			return;
+		Ray rayForward= new Ray (this.capsule.center + this.transform.position, this.transform.forward);
+		Ray rayDown = new Ray (this.capsule.center + this.transform.position, this.transform.up * -1f);
+		RaycastHit hit;
 		if (Physics.Raycast (rayForward, out hit, forwardCollitionLenght) && !jumpUp) 
 		{
 			animator.SetBool ("JumpUP", true);
@@ -64,8 +91,20 @@ public class PlayerControllerAnimator : MonoBehaviour {
 		}
 		Debug.DrawRay(rayForward.origin, rayForward.direction);
 		Debug.DrawRay(rayDown.origin, rayDown.direction);
-		print (jumpUp);
+	}
 
+	public void Dead()
+	{
+		if (this.state == PlayerState.DEAD)
+			return;
+		this.animator.SetTrigger ("Dead");
+		StartCoroutine ("Restart");
+		this.state = PlayerState.DEAD;
+	}
 
+	public IEnumerator Restart()
+	{
+		yield return new WaitForSeconds (5);
+		Application.LoadLevel ("Pract09");
 	}
 }
