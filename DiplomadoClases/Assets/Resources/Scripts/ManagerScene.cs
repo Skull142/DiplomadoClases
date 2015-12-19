@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class ManagerScene : MonoBehaviour {
@@ -15,6 +16,6 @@ public class ManagerScene : MonoBehaviour {
 	void Update () 
 	{
 		if (Input.GetKey (KeyCode.L))
-			Application.LoadLevel (scene);
+			SceneManager.LoadScene(scene);
 	}
 }

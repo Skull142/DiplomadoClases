@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public enum PlayerState
@@ -10,6 +12,11 @@ public enum PlayerState
 [RequireComponent(typeof(CapsuleCollider))]
 public class PlayerControllerAnimator : MonoBehaviour 
 {
+	[Header("Healh")]
+	public float health = 100f;
+	public Image healthIndicator;
+	//
+	[Header("Other")]
 	public float forwardCollitionLenght = 1f;
 	public float offsetDown  = 1f; 
 	public PlayerState state;
@@ -21,6 +28,7 @@ public class PlayerControllerAnimator : MonoBehaviour
 	private bool jumpUp;
 	private bool jumpDown;
 	private float startHeightCollider;
+
 	// Use this for initialization
 	void Start () {
 		this.animator = this.GetComponent<Animator> ();
@@ -57,7 +65,7 @@ public class PlayerControllerAnimator : MonoBehaviour
 			{
 				if(hitShoot.transform.tag == "Enemy")
 				{
-					hitShoot.transform.SendMessage("Dead");
+					hitShoot.transform.SendMessage("TakeDamage", 50f);
 					Debug.DrawRay(ray.origin, hitShoot.point);
 				}
 			}
@@ -93,6 +101,16 @@ public class PlayerControllerAnimator : MonoBehaviour
 		Debug.DrawRay(rayDown.origin, rayDown.direction);
 	}
 
+	public void TakeDamage(float damage)
+	{
+		this.health -= damage;
+		this.healthIndicator.fillAmount = health / 100f;
+		//
+		this.healthIndicator.color = Color.Lerp(Color.green, Color.red, (100-this.health)/100f);
+		if (health <= 0)
+			this.Dead ();
+	}
+
 	public void Dead()
 	{
 		if (this.state == PlayerState.DEAD)
@@ -105,6 +123,6 @@ public class PlayerControllerAnimator : MonoBehaviour
 	public IEnumerator Restart()
 	{
 		yield return new WaitForSeconds (5);
-		Application.LoadLevel ("Pract09");
+		SceneManager.LoadScene("Pract10");
 	}
 }

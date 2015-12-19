@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
-[RequireComponent(typeof(Rigidbody))]
 public class ApplyForce : MonoBehaviour {
 
 	public float duration;
@@ -15,7 +13,6 @@ public class ApplyForce : MonoBehaviour {
 	private float startTime;
 	private Color colorMat;
 	private MeshRenderer mesh;
-	private Rigidbody body;
 	// Use this for initialization
 	void Start () {
 		startTime = 10f;
@@ -23,7 +20,6 @@ public class ApplyForce : MonoBehaviour {
 		mesh = this.GetComponent<MeshRenderer> ();
 		colorMat = mesh.material.color;
 		mesh.material.color = colorMat;
-		body = this.GetComponent<Rigidbody>();
 		DontDestroyOnLoad (this.gameObject);
 		//Destroy (this.gameObject, 5f);
 	}

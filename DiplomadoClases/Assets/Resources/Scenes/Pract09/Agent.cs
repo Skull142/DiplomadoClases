@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public enum EnemyState
@@ -9,8 +10,13 @@ public enum EnemyState
 }
 
 [RequireComponent(typeof(NavMeshAgent))]
-public class Agent : MonoBehaviour {
+public class Agent : MonoBehaviour 
+{
 
+	[Header("Health")]
+	public float health = 100f;
+	public Image healthIndicator;
+	[Header("Others")]
 	public EnemyState state;
 	public Transform target;
 	public float refreshSearch = 0.15f;
@@ -23,7 +29,8 @@ public class Agent : MonoBehaviour {
 	private Vector3 endPosition;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		this.startPosition = this.transform.position;
 		this.agent = this.GetComponent<NavMeshAgent> ();	
 		this.target = GameObject.FindGameObjectWithTag ("Player").transform;
@@ -40,6 +47,8 @@ public class Agent : MonoBehaviour {
 		if (this.state == EnemyState.DEAD)
 			return;
 		this.animator.SetFloat ("Speed", this.agent.speed);
+
+		this.healthIndicator.transform.LookAt (Camera.main.transform.position);
 	}
 
 	public IEnumerator UpdateReference()
@@ -66,20 +75,34 @@ public class Agent : MonoBehaviour {
 		this.state = state;
 		StartCoroutine ("UpdateReference");
 	}
+
+	public void TakeDamage (float damage)
+	{
+		this.health -= damage;
+		this.healthIndicator.fillAmount = health / 100f;
+		this.healthIndicator.color = Color.Lerp(Color.green, Color.red, (100-this.health)/100f);
+		if (this.health <= 0) 
+		{
+			this.Dead ();
+		}
+	}
+
 	public void Dead()
 	{
 		if (this.state == EnemyState.DEAD)
 			return;
+		KillManager.Kills++;
 		this.state = EnemyState.DEAD;
 		this.animator.SetTrigger ("Dead");
-		//Destroy(this.gameObject, 3f);
+		StopAllCoroutines ();
+		Destroy(this.gameObject, 3f);
 		this.agent.Stop ();
 	}
 
 	void OnTriggerEnter(Collider coll)
 	{
-		if(coll.tag == "Player" )
-			coll.transform.SendMessage ("Dead");
+		if(coll.tag == "Player" && this.state != EnemyState.DEAD)
+			coll.transform.SendMessage ("TakeDamage",25f);
 	}
 	
 }

@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class ManagerScene1: MonoBehaviour {
 
 	void Awake()
 	{
-		Vector2 rand = new Vector2 (Random.Range (0, Application.levelCount), Random.Range (0, Application.levelCount));
-		Application.LoadLevelAdditive ((int)rand.x);
-		Application.LoadLevelAdditive ((int)rand.y);
+		Vector2 rand = new Vector2 (Random.Range (0, SceneManager.sceneCount), Random.Range (0, SceneManager.sceneCount));
+		SceneManager.MergeScenes (SceneManager.GetSceneAt((int)rand.x), SceneManager.GetActiveScene());
+		SceneManager.MergeScenes (SceneManager.GetSceneAt((int)rand.y), SceneManager.GetActiveScene());
 		print (rand);
 	}
 
@@ -15,6 +16,6 @@ public class ManagerScene1: MonoBehaviour {
 	void Update () 
 	{
 		if (Input.GetKeyDown(KeyCode.Space)) 
-			Application.LoadLevel (0);
+			SceneManager.LoadScene(0);
 	}
 }
