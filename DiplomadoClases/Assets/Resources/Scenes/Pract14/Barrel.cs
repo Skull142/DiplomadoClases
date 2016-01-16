@@ -5,12 +5,10 @@ public class Barrel: MonoBehaviour {
 	public GameObject effect;
 
 	private Animator animator;
-	private Rigidbody2D body;
 	// Use this for initialization
 	void Start () 
 	{
 		this.animator = this.GetComponent<Animator> ();
-		this.body = this.GetComponent<Rigidbody2D> ();
 	}
 
 	void OnCollisionEnter2D(Collision2D coll)

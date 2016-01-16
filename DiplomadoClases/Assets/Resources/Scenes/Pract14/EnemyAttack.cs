@@ -47,6 +47,7 @@ public class EnemyAttack : MonoBehaviour
 		GameObject clone;
 		clone = Instantiate(this.elementAttack, this.sourceAttack.position, this.sourceAttack.rotation) as GameObject;
 		clone.GetComponent<Rigidbody2D>().AddForce(this.transform.right * this.force, ForceMode2D.Impulse);
+		Destroy (clone.gameObject, 5f);
 	}
 
 	void OnTriggerEnter2D(Collider2D coll)
