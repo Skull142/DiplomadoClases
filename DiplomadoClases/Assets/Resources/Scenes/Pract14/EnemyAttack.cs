@@ -45,7 +45,11 @@ public class EnemyAttack : MonoBehaviour
 	public void LaunchAttack()
 	{
 		GameObject clone;
-		clone = Instantiate(this.elementAttack, this.sourceAttack.position, this.sourceAttack.rotation) as GameObject;
+		clone = ObjectPull.objectPull.GetgameObjectOfType ("Barrel", true);
+		if (clone == null)
+			return;
+		clone.transform.position = this.sourceAttack.position;
+		clone.transform.rotation = this.sourceAttack.rotation;
 		clone.GetComponent<Rigidbody2D>().AddForce(this.transform.right * this.force, ForceMode2D.Impulse);
 		Destroy (clone.gameObject, 5f);
 	}

@@ -18,6 +18,7 @@ public class AudioManager : MonoBehaviour
 
 	void Start()
 	{
+		Time.timeScale = 1;
 		this.pause = false;
 	}
 
